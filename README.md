@@ -21,3 +21,10 @@ My implement of InstantBooth :kissing:
     + ATR (Active Template Regression)
 + **Combined with Controlnet-DensePose**
 
+### Tasks
+- [ ] **Data Preprocessing**
+- [ ] **Prompt Creation**
+- [ ] **Concept Embedding Learning**
+- [ ] **Rich Representation Learning with Adapters**
+- [ ] **Model Training**
+- [ ] **Combined with Controlnet-DensePose**
