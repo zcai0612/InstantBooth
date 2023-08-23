@@ -1,2 +1,23 @@
 # InstantBooth
-My implement of InstantBooth
+My implement of InstantBooth :kissing:
+
+### structure of instant booth
+![Alt text](image.png)
+
++ **Data Preprocessing**
+  + Crop the person and get the mask of foreground.
+  + Augmentation during training.
++ **Prompt Creation**
+  + Use unique identifier (**automatically** based on the give categories).
++ **Concept Embedding Learning**
+  + Image Features (CLIP Image Encoder followed by a randomly initialized fully-connected layer.)
+    + $E_{c}$: Concept Encoder 
+    + $E_{p}$: Patch Encoder 
+  + Text Prompt Embedding Features (CLIP Text Encoder) - Inject to Cross-Attn of Unet.
++ **Rich Representation Learning with Adapters**
++ **Model Training**
+  + Dataset Prepare (single person)
+    + LIP (Look into Person)
+    + ATR (Active Template Regression)
++ **Combined with Controlnet-DensePose**
+
