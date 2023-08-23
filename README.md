@@ -2,7 +2,7 @@
 My implement of InstantBooth :kissing:
 
 ### structure of instant booth
-![Alt text](image.png)
+![Alt text](docs/pictures/instantbooth.png)
 
 + **Data Preprocessing**
   + Crop the person and get the mask of foreground.
