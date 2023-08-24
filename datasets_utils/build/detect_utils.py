@@ -27,9 +27,10 @@ def judge_one_face(model, image_path):
                                              factor)
     num_faces = boxes.shape[0]
     if num_faces == 1:
-        return True
+        face_boxes = boxes[0][:-1]
+        return True, face_boxes
     else:
-        return False
+        return False, None
     
 
     
