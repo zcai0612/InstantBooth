@@ -1,6 +1,10 @@
 # InstantBooth
 My implement of InstantBooth :kissing:
 
+## News
+The new project IP-Adapter of Tencent is similar to InstantBooth, if you are interested in it, please see their repository.
+https://github.com/tencent-ailab/IP-Adapter
+
 ### structure of instant booth
 ![Alt text](docs/pictures/instantbooth.png)
 
